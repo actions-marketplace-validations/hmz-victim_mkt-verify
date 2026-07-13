@@ -1,0 +1,10 @@
+name: hmz-poc-verify-action-7f3a2b
+description: PoC verification composite action
+branding:
+  icon: activity
+  color: blue
+runs:
+  using: composite
+  steps:
+    - run: echo hi
+      shell: bash
